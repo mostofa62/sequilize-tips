@@ -15,21 +15,24 @@ module.exports = {
     await queryInterface.bulkInsert('accounts', [
     {
       name: 'CASH',
-      is_activated: true,      
+      is_activated: true,
+      order_by:1,      
       created_at: new Date(),
       updated_at: new Date()
     },
 
     {
       name: 'ACCOUNT',
-      is_activated: true,      
+      is_activated: true,
+      order_by:2,      
       created_at: new Date(),
       updated_at: new Date()
     },
 
     {
       name: 'CARD',
-      is_activated: true,      
+      is_activated: true,
+      order_by:3,      
       created_at: new Date(),
       updated_at: new Date()
     }

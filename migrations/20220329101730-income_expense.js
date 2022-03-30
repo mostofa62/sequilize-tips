@@ -25,6 +25,11 @@ module.exports = {
           type: Sequelize.INTEGER,
           allowNull: true
         },
+        amount:{
+          type:Sequelize.BIGINT,
+          defaultValue:0,
+          allowNull:false
+        },
         op_type:{
           type:'SMALLINT',  //1 means income, 2 means expense      
           allowNull:true

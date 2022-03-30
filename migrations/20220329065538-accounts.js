@@ -27,6 +27,11 @@ module.exports = {
           allowNull: true
 
         },
+        order_by:{
+          type:'SMALLINT',
+          allowNull:false,
+          unique: true
+        },
         is_activated:{
           type:Sequelize.BOOLEAN,
           allowNull:false,
