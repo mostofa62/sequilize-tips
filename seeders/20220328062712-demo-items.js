@@ -17,6 +17,8 @@ module.exports = {
       name: 'Apple',
       is_activated: true,
       unit:4, //KG
+      sku: 'R1001',
+      description:"an apple keeps the doctor away",
       created_at: new Date(),
       updated_at: new Date()
     },
@@ -25,6 +27,8 @@ module.exports = {
       name: 'Banana',
       is_activated: true,
       unit:1, //PIECES
+      sku: 'R1002',
+      description:"a banana a day keeps depression away",
       created_at: new Date(),
       updated_at: new Date()
     },
@@ -33,6 +37,8 @@ module.exports = {
       name: 'Orange',
       is_activated: true,
       unit:20, //Dozen
+      sku: 'R1003',
+      description:"an orange a day health benefits",      
       created_at: new Date(),
       updated_at: new Date()
     }
