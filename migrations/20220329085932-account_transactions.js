@@ -22,7 +22,7 @@ module.exports = {
         allowNull: true
       },      
       amount:{
-        type:Sequelize.BIGINT,
+        type:Sequelize.FLOAT(10, 2),
         defaultValue:0,
         allowNull:false
       },
